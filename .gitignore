@@ -1,0 +1,11 @@
+# Local documents.
+*.docx
+
+# Generated instances other than the bundled one.
+seed*.json
+
+# Python environments and caches.
+.venv/
+venv/
+__pycache__/
+*.pyc

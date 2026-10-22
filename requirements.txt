@@ -1,0 +1,5 @@
+pycryptodome>=3.18
+sympy>=1.13
+# sympy uses FLINT's LLL when python-flint is installed; its pure-Python fallback
+# fails an internal assertion on the 140-bit inputs here.
+python-flint>=0.6
